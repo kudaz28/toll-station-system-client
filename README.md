@@ -1,2 +1,2 @@
-# toll-station-system-client
-Client application responsible for consuming configurations from a Spring Boot config server app
+# toll-station-system-config-server
+Spring Boot configuration repo for the Toll Station System 
