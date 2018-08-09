@@ -19,6 +19,9 @@ public class RateController {
 	@Value("${tollstart}")
 	String tollstart;
 	
+	@Value("${tollstop}")
+	String tollstop;
+	
 	//@Value("${connstring}")
 	//String connstring;
 
@@ -28,6 +31,7 @@ public class RateController {
 		m.addAttribute("rateamount", rate);
 		m.addAttribute("lanes", lanecount);
 		m.addAttribute("tollstart", tollstart);
+		m.addAttribute("tollstop", tollstop);
 		//m.addAttribute("connstring", connstring);
 				
 		//name of view
